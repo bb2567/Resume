@@ -1,0 +1,133 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  font-size: .8rem;
+}
+body {
+  background: #ccc;
+  line-height: 24px;
+  padding: 5%;
+}
+
+.wrapper{
+  position: relative;
+  margin: 0 auto;
+  max-width: 960px;
+  /* background: rgb(251, 226, 81); */
+  box-shadow:  5px 5px 5px rgb(138, 138, 138);
+
+}
+/* 共用css */
+a{
+  text-decoration:none;
+  color:black;
+}
+h1{
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+}
+.pd-40-0{
+  padding: 40px 0;
+}
+.pd-10-30{
+
+  padding: 10px 0 30px 0;
+}
+.border-bottom{
+  border-bottom: 1px solid  rgb(28, 28, 28)
+}
+.text-align-right{
+  text-align:right;
+}
+
+
+/*  */
+.info{
+  letter-spacing:1px;
+  background: rgb(251, 226, 81);
+  padding: 5%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  
+}
+.info-left{
+  width: 250px;
+  margin-top: 40px;
+
+}
+.info-left ul{
+  margin-top: 15%;
+}
+.item_title{
+  font-weight: 600;
+  border-bottom: 1px solid  rgb(28, 28, 28);
+  padding: 4px 0;
+}
+
+.info-left ul li{
+  padding: .5rem 0;
+}
+ .info-left ul li p {
+  padding: 5px 0;
+}
+
+
+.about_me h1 {
+  letter-spacing: 2px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+.about_me p {
+  margin-top: 3rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+}
+
+/* ------- */
+
+.resume{
+  display: flex;
+  background: rgb(245, 245, 245);
+  padding: 5%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.skill{
+  width: 360px;
+}
+.title {
+  padding-bottom: 3rem;
+}
+
+.about_me, .experience{
+  width: 400px;
+  padding:0 5%;
+}
+
+.cv{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: solid black 1.2rem;
+  border-radius: 50%;
+  top: 31%;
+  right: 10%;
+
+}
+.cv h1{
+  text-align: center;
+  font-size: 80px;
+  line-height: 110px;
+}
+
+@media screen and (max-width: 860px){
+  .cv{
+    display: none;
+  }
+}
